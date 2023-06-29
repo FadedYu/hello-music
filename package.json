@@ -41,8 +41,7 @@
     "eslint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "stylelint": "stylelint ./**/*.{css,less,vue,html} --fix",
     "format": "npm run eslint && npm run stylelint && npm run prettier",
-    "prepare": "husky install",
-    "lint:lint-staged": "lint-staged"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-3080420230531001",

@@ -41,7 +41,8 @@
     "eslint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "stylelint": "stylelint ./**/*.{css,less,vue,html} --fix",
     "format": "npm run eslint && npm run stylelint && npm run prettier",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:lint-staged": "lint-staged"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-3080420230531001",
@@ -77,6 +78,7 @@
     "eslint-plugin-vue": "^9.15.1",
     "husky": "^8.0.3",
     "less": "^4.1.3",
+    "lint-staged": "^13.2.3",
     "lodash-es": "^4.17.21",
     "lodash-miniprogram-polyfill": "^1.0.1",
     "mini-types": "^0.1.7",

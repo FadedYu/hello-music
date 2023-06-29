@@ -11,7 +11,7 @@ cli 模板：`npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project`
 - 使用 vue3 + typescript + vite；
 - 主要使用 vant weapp ui框架，结合uniapp自带的UI框架；
 - 使用 [网易云音乐 NodeJS 版 API](https://binaryify.github.io/NeteaseCloudMusicApi/#/) ，自启后台项目，调用曲库；
-- 整合 eslint + prettier + stylelint 语法校验，husky 提交代码校验；
+- 整合 eslint + prettier + stylelint 语法校验，husky + lint-staged 提交代码校验；
 
 
 
